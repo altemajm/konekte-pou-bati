@@ -1,0 +1,71 @@
+<section>
+  <div class="container">
+    <h1 class="section-title">{{rezoTitle}}</h1>
+    <p class="section-sub">{{rezoSub}}</p>
+
+    <div class="tier-card" style="max-width:720px;margin:0 auto 40px;">
+      <h3>{{appelTitle}}</h3>
+      <p>{{appelText}}</p>
+    </div>
+
+    {{{message}}}
+
+    <div class="axes-grid">
+      <div>
+        <h2>{{mentorHeading}}</h2>
+        <form class="form-card" method="POST" action="/rezo-konekte/mentor">
+          <label for="m_nom">{{labelNom}} *</label>
+          <input type="text" id="m_nom" name="nom" required />
+
+          <label for="m_email">{{labelEmail}} *</label>
+          <input type="email" id="m_email" name="email" required />
+
+          <label for="m_ville_residence">{{labelVilleResidence}} *</label>
+          <input type="text" id="m_ville_residence" name="villeResidence" required />
+
+          <label for="m_ville_origine">{{labelVilleOrigine}}</label>
+          <input type="text" id="m_ville_origine" name="villeOrigine" />
+
+          <label for="m_axe">{{labelAxeExpertise}} *</label>
+          <select id="m_axe" name="axe" required>
+            <option value="">{{chooseOption}}</option>
+            {{{axisOptions}}}
+          </select>
+
+          <label for="m_disponibilite">{{labelDisponibilite}}</label>
+          <input type="text" id="m_disponibilite" name="disponibilite" placeholder="{{placeholderDisponibilite}}" />
+
+          <label for="m_motivation">{{labelMotivation}}</label>
+          <textarea id="m_motivation" name="motivation"></textarea>
+
+          <button type="submit" class="btn btn-primary form-submit">{{btnDevenirMentor}}</button>
+        </form>
+      </div>
+
+      <div>
+        <h2>{{jeuneHeading}}</h2>
+        <form class="form-card" method="POST" action="/rezo-konekte/jeune">
+          <label for="j_nom">{{labelNom}} *</label>
+          <input type="text" id="j_nom" name="nom" required />
+
+          <label for="j_email">{{labelEmail}} *</label>
+          <input type="email" id="j_email" name="email" required />
+
+          <label for="j_ville">{{labelVille}} *</label>
+          <input type="text" id="j_ville" name="ville" required />
+
+          <label for="j_axe">{{labelAxeInteresse}} *</label>
+          <select id="j_axe" name="axe" required>
+            <option value="">{{chooseOption}}</option>
+            {{{axisOptions}}}
+          </select>
+
+          <label for="j_objectif">{{labelObjectif}}</label>
+          <textarea id="j_objectif" name="objectif"></textarea>
+
+          <button type="submit" class="btn btn-primary form-submit">{{btnDemanderMentor}}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

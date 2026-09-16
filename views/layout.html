@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{{title}}} — Konekte pou Bati</title>
+  <meta name="description" content="Salon des metiers d'avenir Konekte pou Bati — 14 novembre 2026, 100% en ligne." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="brand">
+        <span class="brand-logo-wrap">
+          <img src="/images/logo-transparent.png" alt="Konekte pou Bati" />
+        </span>
+      </a>
+      <div class="nav-links">
+        <a href="/programme">{{navProgramme}}</a>
+        <a href="/axes">{{navAxes}}</a>
+        <a href="/opportunites">{{navOpportunites}}</a>
+        <a href="/rezo-konekte">{{navRezo}}</a>
+        <a href="/partenaires">{{navPartenaires}}</a>
+        <a href="/inscription" class="nav-cta">{{navInscription}}</a>
+        <span class="lang-switch">
+          <a href="/lang/fr?back={{backPath}}" class="{{langFrClass}}">FR</a>
+          <span class="lang-sep">/</span>
+          <a href="/lang/ht?back={{backPath}}" class="{{langHtClass}}">HT</a>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {{{content}}}
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Konekte pou Bati</strong> — {{footerTagline}}</p>
+    <p>{{footerMeta}}</p>
+    <p class="footer-contact">{{contactLabel}} : <a href="mailto:{{contactEmail}}">{{contactEmail}}</a> &nbsp;·&nbsp; {{contactPhoneLabel}} : <a href="tel:{{contactPhone}}">{{contactPhone}}</a></p>
+    <p><a href="/admin">{{footerAdmin}}</a></p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

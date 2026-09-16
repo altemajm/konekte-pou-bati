@@ -1,0 +1,41 @@
+<section>
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <h1>Tableau de bord</h1>
+      <form method="POST" action="/admin/logout"><button class="btn btn-outline" style="border-color:#1b3a6b; color:#1b3a6b;">Se deconnecter</button></form>
+    </div>
+
+    <div class="stats-grid" style="margin-bottom:40px;">
+      <div class="stat-card"><div class="num">{{countInscriptions}}</div><p>Inscriptions jeunes</p></div>
+      <div class="stat-card"><div class="num">{{countMentors}}</div><p>Mentors Rezo Konekte</p></div>
+      <div class="stat-card"><div class="num">{{countMentores}}</div><p>Jeunes en demande de mentorat</p></div>
+      <div class="stat-card"><div class="num">{{countOffres}}</div><p>Offres publiees</p></div>
+      <div class="stat-card"><div class="num">{{countPartenaires}}</div><p>Contacts partenaires</p></div>
+    </div>
+
+    <div class="admin-section">
+      <h2>Inscriptions jeunes</h2>
+      {{{tableInscriptions}}}
+    </div>
+
+    <div class="admin-section">
+      <h2>Mentors (Rezo Konekte)</h2>
+      {{{tableMentors}}}
+    </div>
+
+    <div class="admin-section">
+      <h2>Jeunes en demande de mentorat</h2>
+      {{{tableMentores}}}
+    </div>
+
+    <div class="admin-section">
+      <h2>Offres du Mur des opportunites</h2>
+      {{{tableOffres}}}
+    </div>
+
+    <div class="admin-section">
+      <h2>Contacts partenaires</h2>
+      {{{tablePartenaires}}}
+    </div>
+  </div>
+</section>

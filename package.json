@@ -1,0 +1,14 @@
+{
+  "name": "konekte-pou-bati-platform",
+  "version": "1.0.0",
+  "description": "Systeme du Salon des metiers d'avenir Konekte pou Bati : vitrine, Rezo Konekte (mentorat), Mur des opportunites. Zero dependance externe (Node.js pur).",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "UNLICENSED"
+}

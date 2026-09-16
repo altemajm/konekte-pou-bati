@@ -1,0 +1,163 @@
+// Diksyonè tradiksyon — Kreyòl ayisyen.
+// Menm kle ak fr.js ; si yon kle pa gen tradiksyon isit, sistèm nan
+// otomatikman itilize vèsyon fransè a (gade lib/i18n.js).
+// REMAK : espas administratè a (/admin) rete an fransè expresman —
+// se yon zouti entèn pou òganizatè yo, pa piblik jenn/patnè yo.
+
+module.exports = {
+  // Navigasyon / anba paj
+  nav_programme: "Pwogram",
+  nav_axes: "Aks yo",
+  nav_opportunites: "Mi Opòtinite yo",
+  nav_rezo: "Rezo Konekte",
+  nav_partenaires: "Patnè yo",
+  nav_inscription: "Enskri",
+  footer_meta: "Samdi 14 novanm 2026 · 10h00 - 16h00 · 100% sou entènèt · Prezante pa Haiti Tech Connect Podcast",
+  footer_admin: "Espas Òganizatè",
+  footer_tagline: "Salon Metye Lavni yo",
+  contact_label: "Kontak",
+  contact_email: "hey@profitconsultgroup.com",
+  contact_phone_label: "Telefòn / WhatsApp",
+  contact_phone: "+1-509-3185-4444",
+
+  // Paj akèy — hero
+  hero_title: "Salon Metye Lavni yo",
+  hero_tagline: "Konekte pou Bati — Jenès, Dyaspora ak Metye Lavni",
+  hero_lead: "Konekte jèn ayisyen yo ak eksperyans dyaspora a pou klere chwa oryantasyon yo epi reponn a ijans travay la.",
+  hero_meta: "Samdi 14 novanm 2026 &nbsp;|&nbsp; 10h00 - 16h00 &nbsp;|&nbsp; 100% sou entènèt",
+  hero_target: "Objektif : plis pase 10 000 jèn touche",
+  btn_inscription: "Enskri m",
+  btn_partenaire: "Vin patnè",
+
+  // Chif kle
+  stats_title: "Poukisa salon sa a, kounye a",
+  stats_sub: "Ayiti gen anpil jèn talan ak yon dyaspora rich an eksperyans — men lyen ant de a rete enfòmèl.",
+  stat1_num: "150 000",
+  stat1_label: "jèn ki antre chak ane sou mache travay ayisyen an",
+  stat2_num: "37%",
+  stat2_label: "chomaj pami jèn 15-24 an",
+  stat3_num: "60%+",
+  stat3_label: "nan diplome teknik yo rete san travay",
+  stat4_num: "5 Mds $",
+  stat4_label: "transfè dyaspora a voye an Ayiti an 2025 (+20% konpare ak 2024), sa vle di anviwon 20% PIB nasyonal la",
+
+  // Aks yo (rezime sou paj akèy)
+  axes_title: "Kat aks tematik",
+  axes_sub: "Chak aks make ak yon koulè, itilize nan tout sipò evènman an.",
+  btn_voir_axes: "Gade detay aks yo",
+
+  // Paj Aks (etikèt komen)
+  axes_page_title: "Kat aks tematik yo",
+  axes_page_sub: "Chak aks reponn a yon anjeu konkrè nan devlopman nasyonal la, ak metye lavni ak yon endikatè ki mezirab.",
+  label_pourquoi: "Poukisa",
+  label_metiers: "Metye",
+  label_indicateur: "Endikatè",
+
+  // Rezilta konkrè
+  retombees_title: "Rezilta konkrè",
+  tier_rezo_title: "Rezo Konekte",
+  tier_rezo_desc: "Salon an fòmile pwopozisyon konkrè sou opòtinite diplomasi teritoryal ak mobilizasyon dyaspora a, pou tout kandida k ap patisipe nan eleksyon k ap vini yo. Demach sa a angaje ni aktè k ap chèche travay yo ni aktè k ap ofri travay yo, e li konekte dyaspora a dirèkteman ak reyalite ekonomik ak sosyal Ayiti a.",
+  tier_mur_title: "Mi Opòtinite yo",
+  tier_mur_desc: "Difizyon an dirèk òf reyèl staj ak travay (Ayiti ak dyaspora), ak lyen pou aplike sou plas.",
+  link_voir_offres: "Gade òf yo",
+  tier_prix_title: "Pri Konekte pou Bati — 5 000 $",
+  tier_prix_desc: "Bous fòmasyon ak aksè a zouti akonpayman pou finalis yo.",
+
+  // Pwogram
+  programme_title: "Pwogram jounen an",
+  programme_sub: "Zoom metye · Atelye · Mizanrelasyon dirèk — 10h00 rive 16h00",
+
+  // Fòmilè enskripsyon
+  inscription_title: "Enskri nan salon an",
+  inscription_sub: "Kèk enfòmasyon pou pèsonalize eksperyans ou pou 25 septanm.",
+  label_nom: "Non konplè",
+  label_email: "Imèl",
+  label_whatsapp: "WhatsApp",
+  label_ville: "Vil / peyi kote w ap viv",
+  label_axe_interet: "Aks ki enterese w plis",
+  choose_option: "-- Chwazi --",
+  label_statut: "Sitiyasyon aktyèl",
+  statut_etudiant: "Etidyan",
+  statut_recherche: "Ap chèche travay aktivman",
+  statut_poste: "Gen travay, ap reflechi sou karyè",
+  statut_autre: "Lòt",
+  btn_confirmer_inscription: "Konfime enskripsyon m",
+  hint_inscription: "Lè w enskri, ou aksepte pou yo kontakte w sou salon an ak Rezo Konekte.",
+  msg_inscription_success: "Enskripsyon anrejistre! Ou pral resevwa lyen koneksyon an pa imèl anvan 25 septanm.",
+  msg_champs_manquants: "Chan ki manke : ",
+
+  // Rezo Konekte
+  rezo_title: "Rezo Konekte",
+  rezo_sub: "Pwogram mantora dyaspora-jenès la, ansanm ak apèl nou pou aksyon teritoryal.",
+  appel_title: "Apèl pou Aksyon Teritoryal",
+  appel_text: "Salon an fòmile pwopozisyon konkrè sou opòtinite diplomasi teritoryal ak mobilizasyon dyaspora a, pou tout kandida k ap patisipe nan eleksyon k ap vini yo. Demach sa a angaje ni aktè k ap chèche travay yo ni aktè k ap ofri travay yo, e li konekte dyaspora a dirèkteman ak reyalite ekonomik ak sosyal Ayiti a.",
+  mentor_heading: "Mwen se yon pwofesyonèl e mwen vle vin mantò",
+  label_ville_residence: "Vil / peyi kote w ap viv",
+  label_ville_origine: "Vil orijin ou an Ayiti",
+  label_axe_expertise: "Aks / sektè eksperyans ou",
+  label_disponibilite: "Disponibilite (èdtan / mwa)",
+  placeholder_disponibilite: "Egz: 1 a 2 èdtan pa mwa",
+  label_motivation: "Motivasyon (200 mo maksimòm)",
+  btn_devenir_mentor: "Vin mantò",
+  msg_mentor_success: "Mèsi! Kandidati mantò ou byen resevwa.",
+  jeune_heading: "Mwen se yon jèn e m ap chèche yon mantò",
+  label_axe_interesse: "Aks ki enterese m",
+  label_objectif: "Sa m ap chèche aprann",
+  btn_demander_mentor: "Mande yon mantò",
+  msg_jeune_success: "Mèsi! Demann mantora ou byen resevwa.",
+
+  // Mi Opòtinite yo
+  opportunites_title: "Mi Opòtinite yo",
+  opportunites_sub: "Òf reyèl staj ak travay, an Ayiti ak nan dyaspora a. Aplike dirèkteman.",
+  opportunites_empty: "Pa gen òf pibliye pou kounye a. Tounen vin gade talè!",
+  opportunites_publier_hint: "W ap rekrite? ",
+  opportunites_publier_link: "Pibliye yon òf",
+  opportunites_publier_suffix: " (validasyon pa ekip òganizatè a).",
+  btn_postuler: "Aplike",
+  type_emploi: "Travay",
+  type_stage: "Staj",
+  type_freelance: "Freelance",
+
+  // Pibliye yon òf
+  publier_title: "Pibliye yon òf",
+  publier_sub: "Ekip òganizatè a pral revize òf ou anvan li pibliye sou Mi Opòtinite yo.",
+  label_entreprise: "Òganizasyon / antrepriz",
+  label_poste: "Tit pòs la",
+  label_type: "Kalite",
+  label_lieu: "Kote",
+  placeholder_lieu: "Pòtoprens, remote, dyaspora...",
+  label_axe_lie: "Aks ki lye",
+  label_description: "Deskripsyon kout",
+  label_lien: "Lyen pou aplike",
+  label_contact_email: "Imèl kontak",
+  btn_soumettre_offre: "Soumèt òf la",
+  msg_offre_success: "Mèsi! Ekip òganizatè a pral egzamine òf ou anvan piblikasyon.",
+
+  // Patnè yo
+  partenaires_title: "Vin patnè",
+  partenaires_sub: "Konekte pou Bati chita sou yon rezo solid: pwofesyonèl dyaspora, chanm komès Ayiti ak dyaspora, ansanm ak entèvenan podcast Haiti Tech Connect la. Chak patnè asosye ak yon evènman ki pale dirèkteman ak kominote li ak talan k ap vini yo.",
+  tier_officiel_title: "Patnè Ofisyèl",
+  tier_officiel_amount: "Patwonaj enstitisyonèl",
+  tier_officiel_desc: "Logo nan yon pozisyon onè, pi wo pase lòt patnè yo, yon mansyon pwotokolè nan ouvèti evènman an, ak yon envitasyon pou fè yon deklarasyon. Videyo pwomosyon sou sit la ak sou platfòm difizyon yo.",
+  tier_or_title: "Patnè Lò",
+  tier_or_amount: "1 500 $ oswa plis",
+  tier_or_desc: "Logo sou sit la, sou platfòm rezo sosyal yo ak sou sipò kominikasyon yo, mansyon nan ouvèti a ak pandan evènman an, posibilite pou patisipe nan yon panèl — videyo pwomosyon sou sit la.",
+  tier_argent_title: "Patnè Ajan",
+  tier_argent_amount: "500 – 1 499 $",
+  tier_argent_desc: "Logo sou sit la, sou platfòm rezo sosyal yo ak sou sipò kominikasyon yo, mansyon pandan evènman an.",
+  tier_bronze_title: "Patnè Bwonz",
+  tier_bronze_amount: "100 – 499 $",
+  tier_bronze_desc: "Logo sou paj sit la, remèsiman nan klotti evènman an.",
+  partenaire_form_title: "Fòmilè kontak patnè",
+  label_organisation: "Òganizasyon",
+  label_contact: "Moun kontak",
+  label_palier: "Nivo w ap konsidere",
+  palier_officiel: "Patnè Ofisyèl (enstitisyon)",
+  palier_or: "Patnè Lò",
+  palier_argent: "Patnè Ajan",
+  palier_bronze: "Patnè Bwonz",
+  palier_nature: "Kontribisyon an nati",
+  label_message: "Mesaj",
+  btn_envoyer: "Voye",
+  msg_partenaire_success: "Mèsi pou enterè ou! Nou pral kontakte w byen vit.",
+};

@@ -1,0 +1,39 @@
+<section>
+  <div class="container">
+    <h1 class="section-title">{{inscriptionTitle}}</h1>
+    <p class="section-sub">{{inscriptionSub}}</p>
+
+    {{{message}}}
+
+    <form class="form-card" method="POST" action="/inscription">
+      <label for="nom">{{labelNom}} *</label>
+      <input type="text" id="nom" name="nom" required />
+
+      <label for="email">{{labelEmail}} *</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="whatsapp">{{labelWhatsapp}}</label>
+      <input type="tel" id="whatsapp" name="whatsapp" placeholder="+509 ..." />
+
+      <label for="ville">{{labelVille}} *</label>
+      <input type="text" id="ville" name="ville" required />
+
+      <label for="axe">{{labelAxeInteret}} *</label>
+      <select id="axe" name="axe" required>
+        <option value="">{{chooseOption}}</option>
+        {{{axisOptions}}}
+      </select>
+
+      <label for="statut">{{labelStatut}}</label>
+      <select id="statut" name="statut">
+        <option value="etudiant">{{statutEtudiant}}</option>
+        <option value="recherche_emploi">{{statutRecherche}}</option>
+        <option value="en_poste">{{statutPoste}}</option>
+        <option value="autre">{{statutAutre}}</option>
+      </select>
+
+      <button type="submit" class="btn btn-primary form-submit">{{btnConfirmerInscription}}</button>
+      <p class="form-hint">{{hintInscription}}</p>
+    </form>
+  </div>
+</section>

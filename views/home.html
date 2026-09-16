@@ -1,0 +1,82 @@
+<section class="hero">
+  <div class="hero-slideshow">
+    <div class="hero-slide is-active" style="background-image:url('https://loremflickr.com/1600/1000/haiti,caribbean');"></div>
+    <div class="hero-slide" style="background-image:url('https://loremflickr.com/1600/1000/caribbean,market');"></div>
+    <div class="hero-slide" style="background-image:url('https://loremflickr.com/1600/1000/tropical,coast');"></div>
+    <div class="hero-slide" style="background-image:url('https://loremflickr.com/1600/1000/community,youth,africa');"></div>
+  </div>
+  <div class="hero-scrim"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <h1>{{heroTitle}}</h1>
+      <p class="tagline">{{heroTagline}}</p>
+      <p class="lead">{{heroLead}}</p>
+      <p class="meta">{{{heroMeta}}}</p>
+      <p class="hero-target">{{heroTarget}}</p>
+      <div class="btn-row">
+        <a href="/inscription" class="btn btn-primary">{{btnInscription}}</a>
+        <a href="/partenaires" class="btn btn-outline">{{btnPartenaire}}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="gallery-grid">
+      <img class="g-main" src="https://loremflickr.com/900/900/haiti,street" alt="" />
+      <img src="https://loremflickr.com/500/440/caribbean,agriculture" alt="" />
+      <img src="https://loremflickr.com/500/440/caribbean,technology" alt="" />
+      <img src="https://loremflickr.com/500/440/caribbean,city" alt="" />
+      <img src="https://loremflickr.com/500/440/caribbean,people" alt="" />
+    </div>
+    <p class="gallery-caption">{{galleryCaption}}</p>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <h2 class="section-title">{{statsTitle}}</h2>
+    <p class="section-sub">{{statsSub}}</p>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="num">{{stat1Num}}</div><p>{{stat1Label}}</p></div>
+      <div class="stat-card"><div class="num">{{stat2Num}}</div><p>{{stat2Label}}</p></div>
+      <div class="stat-card"><div class="num">{{stat3Num}}</div><p>{{stat3Label}}</p></div>
+      <div class="stat-card"><div class="num">{{stat4Num}}</div><p>{{stat4Label}}</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">{{axesTitle}}</h2>
+    <p class="section-sub">{{axesSub}}</p>
+    <div class="axes-grid">
+      {{{axesCardsHtml}}}
+    </div>
+    <div class="btn-row" style="margin-top:34px;">
+      <a href="/axes" class="btn btn-secondary">{{btnVoirAxes}}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <h2 class="section-title">{{retombeesTitle}}</h2>
+    <div class="tiers-grid">
+      <div class="tier-card">
+        <h3>{{tierRezoTitle}}</h3>
+        <p>{{tierRezoDesc}}</p>
+      </div>
+      <div class="tier-card">
+        <h3>{{tierMurTitle}}</h3>
+        <p>{{tierMurDesc}}</p>
+        <a href="/opportunites">{{linkVoirOffres}}</a>
+      </div>
+      <div class="tier-card">
+        <h3>{{tierPrixTitle}}</h3>
+        <p>{{tierPrixDesc}}</p>
+      </div>
+    </div>
+  </div>
+</section>

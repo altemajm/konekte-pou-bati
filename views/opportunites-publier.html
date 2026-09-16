@@ -1,0 +1,47 @@
+<section>
+  <div class="container">
+    <h1 class="section-title">{{publierTitle}}</h1>
+    <p class="section-sub">{{publierSub}}</p>
+
+    {{{message}}}
+
+    <form class="form-card" method="POST" action="/opportunites/publier">
+      <label for="entreprise">{{labelEntreprise}} *</label>
+      <input type="text" id="entreprise" name="entreprise" required />
+
+      <label for="poste">{{labelPoste}} *</label>
+      <input type="text" id="poste" name="poste" required />
+
+      <div class="form-row">
+        <div>
+          <label for="type">{{labelType}}</label>
+          <select id="type" name="type">
+            <option value="emploi">{{typeEmploi}}</option>
+            <option value="stage">{{typeStage}}</option>
+            <option value="freelance">{{typeFreelance}}</option>
+          </select>
+        </div>
+        <div>
+          <label for="lieu">{{labelLieu}}</label>
+          <input type="text" id="lieu" name="lieu" placeholder="{{placeholderLieu}}" />
+        </div>
+      </div>
+
+      <label for="axe">{{labelAxeLie}}</label>
+      <select id="axe" name="axe">
+        {{{axisOptions}}}
+      </select>
+
+      <label for="description">{{labelDescription}}</label>
+      <textarea id="description" name="description"></textarea>
+
+      <label for="lien">{{labelLien}} *</label>
+      <input type="url" id="lien" name="lien" placeholder="https://..." required />
+
+      <label for="contactEmail">{{labelContactEmail}} *</label>
+      <input type="email" id="contactEmail" name="contactEmail" required />
+
+      <button type="submit" class="btn btn-primary form-submit">{{btnSoumettreOffre}}</button>
+    </form>
+  </div>
+</section>
